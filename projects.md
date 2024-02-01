@@ -1,15 +1,15 @@
 # API Endpoints
 
-## GET /proposals
+## GET /projects
 
-**Description**: Retrieves a list of proposals.
+**Description**: Retrieves a list of projects.
 
 **Example Postman**:
 
 ![Alt text](image.png)
 
 - `domain`: String, ask `Acuity Support`
-- `route`: String, `/proposals`
+- `route`: String, `/projects`
 - `Company-Api-Token`: UUID, ask `Acuity Support`
 
 **Response**:
@@ -24,7 +24,7 @@
     "created_at": "date",
     "department": "option",
     "description": "text",
-    "destination": "portfolio",
+    "portfolio": "portfolio",
     "end_date": "date",
     "lifecycle": "option",
     "name": "string",
@@ -32,7 +32,7 @@
     "planned_cost": "currency",
     "planned_operational_expenses": "currency",
     "priority": "option",
-    "proposal_custom_fields": [
+    "project_custom_fields": [
         {
             "name": "Custom Field name",
             "value": "Custom Field value"
@@ -43,7 +43,7 @@
     "risk_priority_score": "integer",
     "sponsor": "string",
     "start_date": "date",
-    "status": "option",
+    "state": "option",
     "strategic_objective": "option",
     "value_priority_score": "integer"
   }
