@@ -14,7 +14,7 @@ Welcome to the AcuityPPM API documentation. This guide provides detailed informa
 	- [Support](#support)
 
 ## Authentication
-Before you make any API request, you need to have two things, these are `Domain` and `Company-Api-Token`, you can ask `Acuity Support`.
+Before you make any API request, you need to have two things, the `Domain` and `Company-Api-Token`. If you do not know this information, please reach out to `Acuity Support` (support@acuityppm.com).
 
 ## API Endpoints
 
