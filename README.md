@@ -31,4 +31,4 @@ Before you make any API request, you need to have two things, the `Domain` and `
 [Detailed Documentation](https://github.com/AcuityPPM/APIs/blob/main/issues.md)
 
 ## Support
-At the moment, we have covered some parts of the API. It is also possible that some columns are not in the response that you need, if you need more columns in the response then just let the `Acuity Support` know so they can add your columns in the future.
+At the moment, we have covered some parts of the API. It is also possible that some columns are not in the response that you need if you need more columns in the response then please reach out to `Acuity Support` (support@acuityppm.com) and will try and assist you. 
