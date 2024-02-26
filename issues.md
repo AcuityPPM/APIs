@@ -1,6 +1,6 @@
 # API Endpoints
 
-## GET /issues
+## GET /projects/issues
 
 **Description**: Retrieves a list of issues.
 
@@ -9,7 +9,7 @@
 ![Alt text](image.png)
 
 - `domain`: String, ask `Acuity Support`
-- `route`: String, `/issues`
+- `route`: String, `/projects/issues`
 - `Company-Api-Token`: UUID, ask `Acuity Support`
 
 **Response**:

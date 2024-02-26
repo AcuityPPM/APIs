@@ -1,6 +1,6 @@
 # API Endpoints
 
-## GET /risks
+## GET /projects/risks
 
 **Description**: Retrieves a list of risks.
 
@@ -9,7 +9,7 @@
 ![Alt text](image.png)
 
 - `domain`: String, ask `Acuity Support`
-- `route`: String, `/risks`
+- `route`: String, `projects/risks`
 - `Company-Api-Token`: UUID, ask `Acuity Support`
 
 **Response**:

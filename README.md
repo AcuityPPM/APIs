@@ -18,17 +18,14 @@ Before you make any API request, you need to have two things, the `Domain` and `
 
 ## API Endpoints
 
-### GET /projects
-[Detailed Documentation](https://github.com/AcuityPPM/APIs/blob/main/projects.md)
+### Scope /projects
+[projects](https://github.com/AcuityPPM/APIs/blob/main/projects.md)
+[risks](https://github.com/AcuityPPM/APIs/blob/main/risks.md)
+[issues](https://github.com/AcuityPPM/APIs/blob/main/issues.md)
 
-### GET /proposals
-[Detailed Documentation](https://github.com/AcuityPPM/APIs/blob/main/proposals.md)
+### Scope /proposals
+[proposals](https://github.com/AcuityPPM/APIs/blob/main/proposals.md)
 
-### GET /risks
-[Detailed Documentation](https://github.com/AcuityPPM/APIs/blob/main/risks.md)
-
-### GET /issues
-[Detailed Documentation](https://github.com/AcuityPPM/APIs/blob/main/issues.md)
 
 ## Support
 At the moment, we have covered some parts of the API. It is also possible that some columns are not in the response that you need if you need more columns in the response then please reach out to `Acuity Support` (support@acuityppm.com) and will try and assist you. 
