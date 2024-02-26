@@ -9,7 +9,7 @@
 ![Alt text](image.png)
 
 - `domain`: String, ask `Acuity Support`
-- `route`: String, `projects/risks`
+- `route`: String, `/projects/risks`
 - `Company-Api-Token`: UUID, ask `Acuity Support`
 
 **Response**:

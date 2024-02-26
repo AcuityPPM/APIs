@@ -23,6 +23,7 @@ Before you make any API request, you need to have two things, the `Domain` and `
 - [projects](https://github.com/AcuityPPM/APIs/blob/main/projects.md)
 - [risks](https://github.com/AcuityPPM/APIs/blob/main/risks.md)
 - [issues](https://github.com/AcuityPPM/APIs/blob/main/issues.md)
+- [resources](https://github.com/AcuityPPM/APIs/blob/main/resources.md)
 
 ### Scope /proposals
 
