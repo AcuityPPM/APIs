@@ -24,13 +24,18 @@
     "created_at": "date",
     "department": "option",
     "description": "text",
-    "portfolio": "portfolio",
     "end_date": "date",
     "lifecycle": "option",
     "name": "string",
     "planned_capital_expenses": "currency",
+    "actual_capital_expenses": "currency",
     "planned_cost": "currency",
+    "actual_cost": "currency",
     "planned_operational_expenses": "currency",
+    "actual_operational_expenses": "currency",
+    "planned_financial_benefits": "currency",
+    "actual_financial_benefits": "currency",
+    "portfolio": "portfolio",
     "priority": "option",
     "project_custom_fields": [
         {
@@ -45,7 +50,9 @@
     "start_date": "date",
     "state": "option",
     "strategic_objective": "option",
-    "value_priority_score": "integer"
+    "value_priority_score": "integer",
+    "project_manager": "string",
+    "approved_at": "date"
   }
  ]
 }
