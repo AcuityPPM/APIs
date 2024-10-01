@@ -26,6 +26,7 @@
    "name": "string",
    "notes": "text",
    "priority": "option",
+   "project_id": "integer",
    "project_name": "string",
    "resolution": "text",
    "resolution_date": "date",
