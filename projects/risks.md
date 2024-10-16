@@ -1,15 +1,15 @@
 # API Endpoints
 
-## GET /projects/issues
+## GET /projects/risks
 
-**Description**: Retrieves a list of issues.
+**Description**: Retrieves a list of risks.
 
 **Example Postman**:
 
 ![Alt text](image.png)
 
 - `domain`: String, ask `Acuity Support`
-- `route`: String, `/projects/issues`
+- `route`: String, `/projects/risks`
 - `Company-Api-Token`: UUID, ask `Acuity Support`
 
 **Response**:
@@ -19,19 +19,22 @@
  [
   {
    "id": "integer",
-   "action_plan": "text",
    "created_at": "date",
    "description": "text",
-   "issue_owner": "string",
+   "likelihood": "option",
    "name": "string",
    "notes": "text",
    "priority": "option",
    "project_id": "integer",
    "project_name": "string",
-   "resolution": "text",
-   "resolution_date": "date",
+   "response_plan": "text",
+   "risk_owner": "string",
+   "risk_response": "option",
+   "severity": "option",
    "status": "option",
    "updated_at": "date"
    }
  ]
 }
+```
+

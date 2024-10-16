@@ -1,0 +1,39 @@
+# API Endpoints
+
+## GET /projects/reports
+
+**Description**: Retrieves a list of project status reports.
+
+**Example Postman**:
+
+![Alt text](image.png)
+
+- `domain`: String, ask `Acuity Support`
+- `route`: String, `/projects/decisions`
+- `Company-Api-Token`: UUID, ask `Acuity Support`
+
+**Response**:
+
+```json
+{
+ [
+    {
+        "id": 9804,
+        "accomplishments": "string",
+        "budget_status": "green | yellow | red",
+        "created_at": "date",
+        "health_status": "green | yellow | red",
+        "help_needed": "string",
+        "look_ahead": "string",
+        "project_id": "integer",
+        "project_name": "string",
+        "quality_status": "green | yellow | red",
+        "schedule_status": "green | yellow | red",
+        "summary": "string",
+        "updated_at": "date",
+        "user": "string | null",
+        "user_id": "string | null"
+    }
+ ]
+}
+```
