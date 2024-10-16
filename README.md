@@ -21,9 +21,12 @@ Before you make any API request, you need to have two things, the `Domain` and `
 ### Scope /projects
 
 - [projects](https://github.com/AcuityPPM/APIs/blob/main/projects/projects.md)
+- [reports](https://github.com/AcuityPPM/APIs/blob/main/projects/reports.md)
 - [risks](https://github.com/AcuityPPM/APIs/blob/main/projects/risks.md)
 - [issues](https://github.com/AcuityPPM/APIs/blob/main/projects/issues.md)
+- [benefits](https://github.com/AcuityPPM/APIs/blob/main/projects/benefits.md)
 - [decisions](https://github.com/AcuityPPM/APIs/blob/main/projects/decisions.md)
+- [lessons](https://github.com/AcuityPPM/APIs/blob/main/projects/lessons.md)
 - [resources](https://github.com/AcuityPPM/APIs/blob/main/projects/resources.md)
 
 ### Scope /proposals
@@ -32,4 +35,4 @@ Before you make any API request, you need to have two things, the `Domain` and `
 
 ## Support
 
-At the moment, we have covered some parts of the API. It is also possible that some columns are not in the response that you need if you need more columns in the response then please reach out to `Acuity Support` (support@acuityppm.com) and will try and assist you.
+At the moment, we have covered some parts of the API. It is also possible that some columns are not in the response that you need if you need more columns in the response then please reach out to `Acuity Support` (support@acuityppm.com) and will try and assist you. If you have any issue please create a new issue [here](https://github.com/AcuityPPM/APIs/issues).
