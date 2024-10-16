@@ -20,14 +20,15 @@ Before you make any API request, you need to have two things, the `Domain` and `
 
 ### Scope /projects
 
-- [projects](https://github.com/AcuityPPM/APIs/blob/main/projects.md)
-- [risks](https://github.com/AcuityPPM/APIs/blob/main/risks.md)
-- [issues](https://github.com/AcuityPPM/APIs/blob/main/issues.md)
-- [resources](https://github.com/AcuityPPM/APIs/blob/main/resources.md)
+- [projects](https://github.com/AcuityPPM/APIs/blob/main/projects/projects.md)
+- [risks](https://github.com/AcuityPPM/APIs/blob/main/projects/risks.md)
+- [issues](https://github.com/AcuityPPM/APIs/blob/main/projects/issues.md)
+- [decisions](https://github.com/AcuityPPM/APIs/blob/main/projects/decisions.md)
+- [resources](https://github.com/AcuityPPM/APIs/blob/main/projects/resources.md)
 
 ### Scope /proposals
 
-- [proposals](https://github.com/AcuityPPM/APIs/blob/main/proposals.md)
+- [proposals](https://github.com/AcuityPPM/APIs/blob/main/proposals/proposals.md)
 
 ## Support
 
