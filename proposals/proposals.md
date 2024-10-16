@@ -6,7 +6,7 @@
 
 **Example Postman**:
 
-![Alt text](image.png)
+![Alt text](https://github.com/AcuityPPM/APIs/blob/main/image.png)
 
 - `domain`: String, ask `Acuity Support`
 - `route`: String, `/proposals`
