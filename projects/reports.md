@@ -9,7 +9,7 @@
 ![Alt text](https://github.com/AcuityPPM/APIs/blob/main/image.png)
 
 - `domain`: String, ask `Acuity Support`
-- `route`: String, `/projects/decisions`
+- `route`: String, `/projects/reports`
 - `Company-Api-Token`: UUID, ask `Acuity Support`
 
 **Response**:
