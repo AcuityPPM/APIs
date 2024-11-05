@@ -14,7 +14,7 @@ Welcome to the AcuityPPM API documentation. This guide provides detailed informa
 
 ## Authentication
 
-Before you make any API request, you need to have two things, the `Domain` and `Company-Api-Token`. If you do not know this information, please reach out to `Acuity Support` (support@acuityppm.com).
+Before making any API request, you need to have the `Domain` and `Company-Api-Token`. If you do not know this information, please contact `Acuity Support` (support@acuityppm.com).
 
 ## API Endpoints
 
@@ -35,4 +35,4 @@ Before you make any API request, you need to have two things, the `Domain` and `
 
 ## Support
 
-At the moment, we have covered some parts of the API. It is also possible that some columns are not in the response that you need if you need more columns in the response then please reach out to `Acuity Support` (support@acuityppm.com) and will try and assist you. If you have any issue please create a new issue [here](https://github.com/AcuityPPM/APIs/issues).
+At the moment, we have covered some parts of the API. It is also possible that some columns are not in the response that you need if you need more columns in the response then please reach out to `Acuity Support` (support@acuityppm.com) and we will try and assist you. If you have any issues please create a new issue [here](https://github.com/AcuityPPM/APIs/issues).
