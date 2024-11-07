@@ -6,7 +6,7 @@
 
 **Example Postman**:
 
-![Alt text](image.png)
+![Alt text](https://github.com/AcuityPPM/APIs/blob/main/image.png)
 
 - `domain`: String, ask `Acuity Support`
 - `route`: String, `/proposals`
@@ -32,12 +32,6 @@
     "planned_cost": "currency",
     "planned_operational_expenses": "currency",
     "priority": "option",
-    "proposal_custom_fields": [
-        {
-            "name": "Custom Field name",
-            "value": "Custom Field value"
-        },
-    ],
     "Custom Field name": "Custom Field value",
     "requestor": "string",
     "risk_priority_score": "integer",
@@ -49,3 +43,4 @@
   }
  ]
 }
+```

@@ -5,12 +5,12 @@ Welcome to the AcuityPPM API documentation. This guide provides detailed informa
 ## Navigation
 
 - [AcuityPPM API Documentation](#acuityppm-api-documentation)
-	- [Navigation](#navigation)
-	- [Authentication](#authentication)
-	- [API Endpoints](#api-endpoints)
-		- [Scope /projects](#scope-projects)
-		- [Scope /proposals](#scope-proposals)
-	- [Support](#support)
+  - [Navigation](#navigation)
+  - [Authentication](#authentication)
+  - [API Endpoints](#api-endpoints)
+    - [Scope /projects](#scope-projects)
+    - [Scope /proposals](#scope-proposals)
+  - [Support](#support)
 
 ## Authentication
 
@@ -20,15 +20,19 @@ Before you make any API request, you need to have two things, the `Domain` and `
 
 ### Scope /projects
 
-- [projects](https://github.com/AcuityPPM/APIs/blob/main/projects.md)
-- [risks](https://github.com/AcuityPPM/APIs/blob/main/risks.md)
-- [issues](https://github.com/AcuityPPM/APIs/blob/main/issues.md)
-- [resources](https://github.com/AcuityPPM/APIs/blob/main/resources.md)
+- [projects](https://github.com/AcuityPPM/APIs/blob/main/projects/projects.md)
+- [reports](https://github.com/AcuityPPM/APIs/blob/main/projects/reports.md)
+- [risks](https://github.com/AcuityPPM/APIs/blob/main/projects/risks.md)
+- [issues](https://github.com/AcuityPPM/APIs/blob/main/projects/issues.md)
+- [benefits](https://github.com/AcuityPPM/APIs/blob/main/projects/benefits.md)
+- [decisions](https://github.com/AcuityPPM/APIs/blob/main/projects/decisions.md)
+- [lessons](https://github.com/AcuityPPM/APIs/blob/main/projects/lessons.md)
+- [resources](https://github.com/AcuityPPM/APIs/blob/main/projects/resources.md)
 
 ### Scope /proposals
 
-- [proposals](https://github.com/AcuityPPM/APIs/blob/main/proposals.md)
+- [proposals](https://github.com/AcuityPPM/APIs/blob/main/proposals/proposals.md)
 
 ## Support
 
-At the moment, we have covered some parts of the API. It is also possible that some columns are not in the response that you need if you need more columns in the response then please reach out to `Acuity Support` (support@acuityppm.com) and will try and assist you. 
+At the moment, we have covered some parts of the API. It is also possible that some columns are not in the response that you need if you need more columns in the response then please reach out to `Acuity Support` (support@acuityppm.com) and will try and assist you. If you have any issue please create a new issue [here](https://github.com/AcuityPPM/APIs/issues).
