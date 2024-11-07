@@ -1,3 +1,5 @@
+[<- Back to List](https://github.com/AcuityPPM/APIs/blob/main/endpoints/list.md)
+
 # API Endpoints
 
 ## GET /projects/lessons
@@ -6,7 +8,7 @@
 
 **Example Postman**:
 
-![Alt text](https://github.com/AcuityPPM/APIs/blob/main/image.png)
+![Alt text](https://github.com/AcuityPPM/APIs/blob/main/img/get_headers.webp)
 
 - `domain`: String, ask `Acuity Support`
 - `route`: String, `/projects/lessons`
