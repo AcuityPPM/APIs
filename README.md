@@ -1,38 +1,59 @@
 # AcuityPPM API Documentation
 
-Welcome to the AcuityPPM API documentation. This guide provides detailed information on how to interact with the various endpoints of the AcuityPPM API.
+Welcome to the Acuity PPM API documentation. This guide provides detailed information on how to interact with the various endpoints of the Acuity PPM API.
 
 ## Navigation
 
 - [AcuityPPM API Documentation](#acuityppm-api-documentation)
   - [Navigation](#navigation)
   - [Authentication](#authentication)
-  - [API Endpoints](#api-endpoints)
-    - [Scope /projects](#scope-projects)
-    - [Scope /proposals](#scope-proposals)
+  - [Endpoints](#endpoints)
   - [Support](#support)
+  - [FAQ](#faq)
 
 ## Authentication
 
-Before making any API request, you need to have the `Domain` and `Company-Api-Token`. If you do not know this information, please contact `Acuity Support` (support@acuityppm.com).
+To access the Acuity PPM API, you need API keys. You can obtain these keys from your Acuity PPM Account Manager or by emailing support@acuityppm.com. Please include "API keys" in the header of your requests.
 
-## API Endpoints
+### Headers for Authentication Method GET
 
-### Scope /projects
+- `Domain`
+- `Company-Api-Token`
 
-- [projects](https://github.com/AcuityPPM/APIs/blob/main/projects/projects.md)
-- [reports](https://github.com/AcuityPPM/APIs/blob/main/projects/reports.md)
-- [risks](https://github.com/AcuityPPM/APIs/blob/main/projects/risks.md)
-- [issues](https://github.com/AcuityPPM/APIs/blob/main/projects/issues.md)
-- [benefits](https://github.com/AcuityPPM/APIs/blob/main/projects/benefits.md)
-- [decisions](https://github.com/AcuityPPM/APIs/blob/main/projects/decisions.md)
-- [lessons](https://github.com/AcuityPPM/APIs/blob/main/projects/lessons.md)
-- [resources](https://github.com/AcuityPPM/APIs/blob/main/projects/resources.md)
+### Headers for Authentication Method GET/POST/PUT
 
-### Scope /proposals
+- `Domain`
+- `api-auth`
+- `api-token`
+- `api-secret`
 
-- [proposals](https://github.com/AcuityPPM/APIs/blob/main/proposals/proposals.md)
+## Endpoints
+
+To get the list of modules and their endpoints, click on the links below:
+
+- [Get - List](https://github.com/AcuityPPM/APIs/blob/main/endpoints/list.md)
+- [Get/Post/Put - Record](https://github.com/AcuityPPM/APIs/blob/main/endpoints/record.md)
 
 ## Support
 
-At the moment, we have covered some parts of the API. It is also possible that some columns are not in the response that you need if you need more columns in the response then please reach out to `Acuity Support` (support@acuityppm.com) and we will try and assist you. If you have any issues please create a new issue [here](https://github.com/AcuityPPM/APIs/issues).
+At the moment, we have covered some parts of the API. It is also possible that some columns are not in the response that you need. If you need more columns in the response then please reach out to `Acuity Support` (<support@acuityppm.com>) and we will try and assist you. If you have any issue please create a new issue [here](https://github.com/AcuityPPM/APIs/issues).
+
+## FAQ
+
+Q: Can I get a list of all the projects? <br>
+A: Yes, you can get list of the projects see the **Endpoints -> Get List.**
+
+Q: Can I get/create/update a project? <br>
+A: Yes, you can do that; see the **Endpoints -> Get/Post/Put Record.**
+
+Q: Where do I find the API keys? <br>
+A: You can obtain an API key from your AcuityPPM Project Information page. Click on the gear icon on the right side of the screen. If you do not see the gear icon, reach out to Acuity PPM support.
+
+Q: What should I do if I encounter a 401 Unauthorized error? <br>
+A: Ensure that your API key is included in the request header and is correct.
+
+Q: Can I request additional columns in the API response? <br>
+A: Yes, if you need additional columns, please contact Acuity PPM Support at <support@acuityppm.com>.
+
+Q: Encounter an issue? <br>
+A: Please create a new issue [github issues](https://github.com/AcuityPPM/APIs/issues)
