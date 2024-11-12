@@ -2,7 +2,7 @@
 
 # API Endpoints
 
-## POST /projects
+## POST /project
 
 **Description**: Create a new project.
 
@@ -10,8 +10,8 @@
 
 **Headers**(`domain`, `route`, `api-auth`, `api-token`, `api-secret`)
 
-- `route`: String, `/projects`
-- `url`: String, `<domain>/api/v1/projects`
+- `route`: String, `/project`
+- `url`: String, `<domain>/api/v1/project`
 
 ![Headers](https://github.com/AcuityPPM/APIs/blob/main/img/post_headers.webp)
 <br>
