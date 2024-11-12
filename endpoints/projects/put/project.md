@@ -26,8 +26,8 @@
 | Field                 | Type                                                  | Default    | Acuity UI Text                            |
 | --------------------- | ----------------------------------------------------- | ---------- | ----------------------------------------- |
 | `project_token`\*     | `uuid`                                                | `required` | Project Token                             |
-| `name`                | `string`                                              | `required` | Name                                      |
-| `description`         | `text`                                                | `required` | Description                               |
+| `name`                | `string`                                              | `""`       | Name                                      |
+| `description`         | `text`                                                | `""`       | Description                               |
 | `background`          | `text`                                                | `""`       | Background                                |
 | `benefits`            | `text`                                                | `""`       | Benefits                                  |
 | `project_objectives`  | `text`                                                | `""`       | Project Objectives                        |
