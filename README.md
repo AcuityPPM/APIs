@@ -46,6 +46,9 @@ A: Yes, you can get list of the projects see the **Endpoints -> Get List.**
 Q: Can I get/create/update a project? <br>
 A: Yes, you can do that; see the **Endpoints -> Get/Post/Put Record.**
 
+Q: Can I get/create/update a proposal? <br>
+A: Yes, you can do that; see the **Endpoints -> Get/Post/Put Record.**
+
 Q: Where do I find the API keys? <br>
 A: You can obtain an API key from your AcuityPPM Project Information page. Click on the gear icon on the right side of the screen. If you do not see the gear icon, reach out to Acuity PPM support.
 
