@@ -12,7 +12,7 @@
 
 - `domain`: String, ask `Acuity Support`
 - `route`: String, `/projects/decisions`
-- `url`: String, `https://<domain>/api/v1/projects/decisions`
+- `url`: String, `https://<domain>/api/snapshot/projects/decisions`
 - `Company-Api-Token`: UUID, ask `Acuity Support`
 
 **Response**:
