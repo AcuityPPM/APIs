@@ -2,7 +2,7 @@
 
 # API Endpoints
 
-## GET /project
+## GET /proposal
 
 **Description**: Get an existing project.
 
