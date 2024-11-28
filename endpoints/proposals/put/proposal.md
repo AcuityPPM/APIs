@@ -44,7 +44,7 @@
 | `strategic_objective`  | `option`                         | `nil`       | Strategic Objectives(or your chosen name) |
 | `proposal_sponsor`     | `sponsor name`                   | `nil`       | Project Sponsor(or your chosen name)      |
 | `project_manager`      | `manager name`                   | `nil`       | Project Manager(or your chosen name)      |
-| `proposal_state`       | `draft`, `deffer`                | `""`        | Proposal State                            |
+| `proposal_state`       | `draft`, `final`                 | `"draft"`   | Proposal State                            |
 | `priority`             | `low`, `medium`, `high`          | `low`       | Priority                                  |
 | `funding`              | `planning`, `funded`, `unfunded` | `nil`       | Funding Status                            |
 | `financial_class`      | `capital`, `operational`         | `nil`       | Financial Class                           |
