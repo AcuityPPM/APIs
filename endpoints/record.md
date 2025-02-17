@@ -5,16 +5,19 @@
 ## Method: Get
 
 - [project](https://github.com/AcuityPPM/APIs/blob/main/endpoints/projects/get/project.md)
+- [project/task](https://github.com/AcuityPPM/APIs/blob/main/endpoints/projects/get/task.md)
 - [proposal](https://github.com/AcuityPPM/APIs/blob/main/endpoints/proposals/get/proposal.md)
 
 ## Method: Post
 
 - [project](https://github.com/AcuityPPM/APIs/blob/main/endpoints/projects/post/project.md)
+- [project/task](https://github.com/AcuityPPM/APIs/blob/main/endpoints/projects/post/task.md)
 - [proposal](https://github.com/AcuityPPM/APIs/blob/main/endpoints/proposals/post/proposal.md)
 
 ## Method: Put
 
 - [project](https://github.com/AcuityPPM/APIs/blob/main/endpoints/projects/put/project.md)
 - [project/timeline](https://github.com/AcuityPPM/APIs/blob/main/endpoints/projects/put/timeline.md)
+- [project/task](https://github.com/AcuityPPM/APIs/blob/main/endpoints/projects/put/task.md)
 - [proposal](https://github.com/AcuityPPM/APIs/blob/main/endpoints/proposals/put/proposal.md)
 - [proposal/timeline](https://github.com/AcuityPPM/APIs/blob/main/endpoints/proposals/put/timeline.md)
