@@ -12,6 +12,7 @@
 - [decisions](https://github.com/AcuityPPM/APIs/blob/main/endpoints/projects/decisions.md)
 - [lessons](https://github.com/AcuityPPM/APIs/blob/main/endpoints/projects/lessons.md)
 - [resources](https://github.com/AcuityPPM/APIs/blob/main/endpoints/projects/resources.md)
+- [tasks](https://github.com/AcuityPPM/APIs/blob/main/endpoints/projects/tasks.md)
 
 ## Scope /proposals
 
