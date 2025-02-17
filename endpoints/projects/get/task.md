@@ -14,4 +14,4 @@
 - `url`: String, `<domain>/api/v1/project/task`
 - `record-id`: String, `It's a task ID. You can get it from the API response of the projects/tasks list.`
 
-![Headers](https://github.com/AcuityPPM/APIs/blob/main/img/get_record_headers.webp)
+![Headers](https://github.com/AcuityPPM/APIs/blob/main/img/get_headers_id.webp)
