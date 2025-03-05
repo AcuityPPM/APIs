@@ -47,3 +47,20 @@
 | `priority`            | `low`, `medium`, `high`                               | `low`      | Priority                                  |
 | `funding`             | `planning`, `funded`, `unfunded`                      | `nil`      | Funding Status                            |
 | `financial_class`     | `capital`, `operational`                              | `nil`      | Financial Class                           |
+| `custom_fields`       | `Object{key:value}`                                   | `nil`      | Company Custom Field                      |
+
+### Example of Project Custom Fields
+
+```json
+{
+  "project_token": "UUID",
+  "custom_fields": {
+    "Custom Text Field": "Some text",
+    "Custom Integer Field": "500",
+    "Custom Currency Field": "1000",
+    "Custom Date Field": "2025-10-31",
+    "Custom Dropdown Field": "Option 1",
+    "Custom MultiSelect Field": "Option 1, Option 2"
+  }
+}
+```
