@@ -22,6 +22,7 @@
  [
   {
    "id": "integer",
+   "actual_start_date": "date",
    "actual_finish_date": "date",
    "assigned_to": "string",
    "created_at": "date",
