@@ -30,6 +30,7 @@
 | `status`             | `open`, `closed`        | `open`     | Status             |
 | `start_date`         | `date(yyyy-mm-dd)`      | `nil`      | Start Date         |
 | `finish_date`        | `date(yyyy-mm-dd)`      | `nil`      | Finish Date        |
+| `actual_start_date`  | `date(yyyy-mm-dd)`      | `nil`      | Actual Start Date  |
 | `actual_finish_date` | `date(yyyy-mm-dd)`      | `nil`      | Actual Finish Date |
 | `notes`              | `string`                | `""`       | Notes              |
 | `performance`        | `green`,`yellow`, `red` | `green`    | Performance        |
