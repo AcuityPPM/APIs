@@ -2,7 +2,7 @@
 
 # API Endpoints
 
-## POST /project/status_report
+## POST /project/status-report
 
 **Description**: Create a new project status report.
 
@@ -10,8 +10,8 @@
 
 **Headers**(`domain`, `route`, `api-auth`, `api-token`, `api-secret`)
 
-- `route`: String, `/project/status_report`
-- `url`: String, `<domain>/api/v1/project/status_report`
+- `route`: String, `/project/status-report`
+- `url`: String, `<domain>/api/v1/project/status-report`
 
 ![Headers](https://github.com/AcuityPPM/APIs/blob/main/img/post_headers.webp)
 <br>

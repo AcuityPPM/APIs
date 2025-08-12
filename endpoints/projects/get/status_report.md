@@ -2,7 +2,7 @@
 
 # API Endpoints
 
-## GET /project/status_report
+## GET /project/status-report
 
 **Description**: Get an existing status report.
 
@@ -10,8 +10,8 @@
 
 **Headers**(`domain`, `route`, `api-auth`, `api-token`, `api-secret`, `record-id`)
 
-- `route`: String, `/project/status_report`
-- `url`: String, `<domain>/api/v1/project/status_report`
+- `route`: String, `/project/status-report`
+- `url`: String, `<domain>/api/v1/project/status-report`
 - `record-id`: String, `It's a status report ID. You can get it from the API response of the projects/reports list.`
 
 ![Headers](https://github.com/AcuityPPM/APIs/blob/main/img/get_headers_id.webp)

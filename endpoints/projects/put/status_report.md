@@ -2,7 +2,7 @@
 
 # API Endpoints
 
-## PUT /project/status_report
+## PUT /project/status-report
 
 **Description**: Update an existing project status report.
 
@@ -10,8 +10,8 @@
 
 **Headers**(`domain`, `route`, `api-auth`, `api-token`, `api-secret`)
 
-- `route`: String, `/project/status_report`
-- `url`: String, `<domain>/api/v1/project/status_report`
+- `route`: String, `/project/status-report`
+- `url`: String, `<domain>/api/v1/project/status-report`
 
 ![Headers](https://github.com/AcuityPPM/APIs/blob/main/img/put_headers.webp)
 <br>
