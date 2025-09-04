@@ -61,7 +61,7 @@
         "planned_financial_benefits": "currency",
         "planned_operational_expenses": "currency",
         "portfolio": "portfolio",
-        "priority": "low | medium | high",
+        "priority": "custom option",
         "project_manager": "string",
         "project_objectives": "string",
         "quality_status": "green | yellow | red | gray",
