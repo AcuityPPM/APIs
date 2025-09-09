@@ -25,7 +25,7 @@
         "department": "null or string",
         "estimate": "integer",
         "end_date_planned": "date",
-        "latest_update": "datetime",
+        "last_update": "datetime",
         "priority": "option",
         "project_name": "string",
         "resource_department": "string",
