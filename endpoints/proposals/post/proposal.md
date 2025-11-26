@@ -48,3 +48,21 @@
 | `project_manager`      | `manager name`     | `nil`                       | Project Manager(or your chosen name)      |
 | `proposal_state`       | `draft`, `final`   | `"draft, ready-for-review"` | Proposal State                            |
 | `priority`             | `custom option`    | `default option`            | Priorities(or your chosen name)           |
+
+### Example of Project Custom Fields
+
+```json
+{
+  "proposal_portfolio": "Proposal Portfolio",
+  "name": "Proposal Name",
+  "description": "Proposal Description",
+  "custom_fields": {
+    "Custom Text Field": "Some text",
+    "Custom Integer Field": "500",
+    "Custom Currency Field": "1000",
+    "Custom Date Field": "2025-10-31",
+    "Custom Dropdown Field": "Option 1",
+    "Custom MultiSelect Field": "Option 1, Option 2"
+  }
+}
+```
