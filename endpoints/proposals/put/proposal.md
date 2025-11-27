@@ -23,30 +23,34 @@
 
 **Description**: Required fields are marked with an asterisk (\*).
 
-| Field                 | Type             | Default                     | Acuity UI Text                            |
-| --------------------- | ---------------- | --------------------------- | ----------------------------------------- |
-| `project_token`\*     | `text`           | `required`                  | Project Token                             |
-| `proposal_portfolio`  | `string`         | ``                          | Proposal Portfolio Name                   |
-| `name`                | `string`         | ``                          | Name                                      |
-| `description`         | `text`           | ``                          | Description                               |
-| `proposal_requestor`  | `text`           | ``                          | Requestor                                 |
-| `background`          | `text`           | `""`                        | Background                                |
-| `project_type`        | `text`           | `"project"`                 | Project Type                              |
-| `benefits`            | `text`           | `""`                        | Benefits                                  |
-| `proposal_objectives` | `text`           | `""`                        | Project Objectives                        |
-| `recommendations`     | `text`           | `""`                        | Recommendations                           |
-| `cost`                | `integer`        | `0`                         | Total Cost (Planned)                      |
-| `financial_benefits`  | `integer`        | `nil`                       | Financial Benefits (Planned)              |
-| `hours`               | `integer`        | `0`                         | Total Project Hours                       |
-| `percent_complete`    | `0-100`          | `0`                         | Percent Complete                          |
-| `category`            | `option`         | `nil`                       | Category(or your chosen name)             |
-| `department`          | `option`         | `nil`                       | Department(or your chosen name)           |
-| `lifecycle`           | `option`         | `nil`                       | Phase(or your chosen name)                |
-| `strategic_objective` | `option`         | `nil`                       | Strategic Objectives(or your chosen name) |
-| `proposal_sponsor`    | `sponsor name`   | `nil`                       | Project Sponsor(or your chosen name)      |
-| `project_manager`     | `manager name`   | `nil`                       | Project Manager(or your chosen name)      |
-| `proposal_state`      | `draft`, `final` | `"draft, ready-for-review"` | Proposal State                            |
-| `priority`            | `custom option`  | `default option`            | Priorities(or your chosen name)           |
+| Field                 | Type                     | Default                     | Acuity UI Text                            |
+| --------------------- | ------------------------ | --------------------------- | ----------------------------------------- |
+| `project_token`\*     | `text`                   | `required`                  | Project Token                             |
+| `proposal_portfolio`  | `string`                 | ``                          | Proposal Portfolio Name                   |
+| `name`                | `string`                 | ``                          | Name                                      |
+| `description`         | `text`                   | ``                          | Description                               |
+| `proposal_requestor`  | `text`                   | ``                          | Requestor                                 |
+| `background`          | `text`                   | `""`                        | Background                                |
+| `project_type`        | `text`                   | `"project"`                 | Project Type                              |
+| `benefits`            | `text`                   | `""`                        | Benefits                                  |
+| `proposal_objectives` | `text`                   | `""`                        | Project Objectives                        |
+| `recommendations`     | `text`                   | `""`                        | Recommendations                           |
+| `cost`                | `integer`                | `0`                         | Total Cost (Planned)                      |
+| `financial_benefits`  | `integer`                | `nil`                       | Financial Benefits (Planned)              |
+| `hours`               | `integer`                | `0`                         | Total Project Hours                       |
+| `percent_complete`    | `0-100`                  | `0`                         | Percent Complete                          |
+| `category`            | `option`                 | `nil`                       | Category(or your chosen name)             |
+| `department`          | `option`                 | `nil`                       | Department(or your chosen name)           |
+| `lifecycle`           | `option`                 | `nil`                       | Phase(or your chosen name)                |
+| `strategic_objective` | `option`                 | `nil`                       | Strategic Objectives(or your chosen name) |
+| `proposal_sponsor`    | `sponsor name`           | `nil`                       | Project Sponsor(or your chosen name)      |
+| `project_manager`     | `manager name`           | `nil`                       | Project Manager(or your chosen name)      |
+| `proposal_state`      | `draft`, `final`         | `"draft, ready-for-review"` | Proposal State                            |
+| `priority`            | `custom option`          | `default option`            | Priorities(or your chosen name)           |
+| `team_member_1`       | `Business Sponsor name`  | `nil`                       | Business Sponsor(or your chosen name)     |
+| `team_member_2`       | `Executive Sponsor name` | `nil`                       | Executive Sponsor(or your chosen name)    |
+| `team_member_3`       | `IT Project Manager`     | `nil`                       | IT Project Manager(or your chosen name)   |
+| `team_member_4`       | `Product Manager`        | `nil`                       | Product Manager(or your chosen name)      |
 
 ### Example of Project Custom Fields
 
