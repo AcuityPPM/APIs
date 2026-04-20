@@ -2,22 +2,23 @@
 
 # API Endpoints
 
-## GET /projects/resources
+## GET /proposals/resources
 
-**Description**: Retrieves a list of project resource assignment rows with nested project and non-project work maps.
+**Description**: Retrieves a list of proposal resource assignment rows with nested project and non-project work maps.
 
 **Example Postman**:
 
 ![Alt text](https://github.com/AcuityPPM/APIs/blob/main/img/get_headers.webp)
 
 - `domain`: String, ask `Acuity Support`
-- `route`: String, `/projects/resources`
-- `url`: String, `https://<domain>/api/snapshot/projects/resources`
+- `route`: String, `/proposals/resources`
+- `url`: String, `https://<domain>/api/snapshot/proposals/resources`
 - `Company-Api-Token`: UUID, ask `Acuity Support`
 
 **Notes**:
 
-- Response returns one object per project resource assignment.
+- Response includes only resources assigned to `project_type = "proposal"` proposals.
+- Response returns one object per proposal resource assignment.
 - Legacy top-level period keys are still returned as a mirror of `project_work` for backward compatibility.
 - Legacy top-level period keys are deprecated and scheduled for removal after `July 18, 2026`.
 - `project_work` contains assignment estimates by period.
@@ -31,19 +32,19 @@
 ```json
 [
   {
-    "id": 101,
+    "id": 201,
     "department": "Architecture",
     "estimate": 35,
     "end_date_planned": "2024-01-31",
     "last_updated": "2024-01-12",
-    "priority": "Priority 1",
-    "project_name": "Project Apollo",
-    "resource_department": "Architecture",
+    "priority": null,
+    "project_name": "Proposal Phoenix",
+    "resource_department": "Proposal Team",
     "resource_name": "Jane Doe",
     "resource_role": "Architect",
     "risk_score": 0,
     "start_date_planned": "2024-01-01",
-    "state": "Active",
+    "state": "ready-for-review",
     "value_score": 0,
     "Jan 2024": 50,
     "Feb 2024": 25,
@@ -61,7 +62,7 @@
 
 **Field Reference**:
 
-- `id`: Integer project resource assignment ID
+- `id`: Integer proposal resource assignment ID
 - `department`: String or `null`
 - `estimate`: Integer or `null`
 - `end_date_planned`: Date or `null`
@@ -76,5 +77,5 @@
 - `resource_role`: String or `null`
 - `risk_score`: Integer or `null`
 - `start_date_planned`: Date or `null`
-- `state`: String or `null`
+- `state`: String or `null`. For proposal assignment rows this is the proposal lifecycle value, for example `draft`, `deferred`, or `ready-for-review`
 - `value_score`: Integer or `null`

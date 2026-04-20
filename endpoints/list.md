@@ -18,4 +18,5 @@
 ## Scope /proposals
 
 - [proposals](https://github.com/AcuityPPM/APIs/blob/main/endpoints/proposals/proposals.md)
+- [resources](https://github.com/AcuityPPM/APIs/blob/main/endpoints/proposals/resources.md)
 - [milestones](https://github.com/AcuityPPM/APIs/blob/main/endpoints/proposals/milestones.md)
